@@ -1,0 +1,9 @@
+class P:
+    def m1(self):
+        pass
+class c(P):
+    def m2(self):
+        print('hii')
+c1=c()
+
+c1.m2()
